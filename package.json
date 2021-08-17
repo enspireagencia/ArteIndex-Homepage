@@ -1,0 +1,17 @@
+{
+  "name": "home.arteindex.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resources/scss/app.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url resources/scss/app.scss assets/css/app.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "node-sass": "^6.0.1"
+  }
+}
