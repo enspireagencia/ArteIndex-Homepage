@@ -107,16 +107,34 @@ a{
       box-shadow: 0 3px 6px transparentize($primary-200, .39);
       color: $primary;
     }
+  
   }
+
+  &.btn-primary.mt-5.mb-2{  //botão do menu mobile -crie sua conta
+    background-color: $white !important;
+    border-color: $black-600;
+    color: $black-600 !important;
+    box-shadow: none;
+  }
+
 
   &.btn-outline-primary{
     background: transparent;
     color: $white;
-    &:hover{
-      background: $primary;
-      border-color: $primary-200;
-      box-shadow: 0 3px 6px transparentize($primary-200, .39);
-    }
+    border-color: $white;
+    
+    // &:hover{
+    //   background: $primary;
+    //   border-color: $primary-200;
+    //   box-shadow: 0 3px 6px transparentize($primary-200, .39);
+    // }
+
+  }
+
+  &.btn-outline-primary.d-block.fw-bolder{ //botão menu mobile - entrar
+    background:$primary ;
+    border-color: $primary-200;
+    
   }
 
   &.btn-without-line-primary{
@@ -269,11 +287,13 @@ header#header{
 
 /* 3.2 Footer */
 footer#footer{
-  background-image: url("../images/bg-footer.png");
-  background-position: top center;
-  padding-top: 8rem;
+
+  background-color:$primary;
+  // background-image: url("../images/bg-footer.png");
+  // background-position: top center;
+  padding-top: 2rem;
   @media (min-width: 992px){
-    padding-top: 10rem;
+    padding-top: 3rem;
   }
 
   .nav{
@@ -308,8 +328,8 @@ footer#footer{
 
 /* 3.3 OffCanvas*/
 #offcanvas{
-  background: $primary;
-  color: $white;
+  background: $white;
+  color: $black-600;
   .offcanvas-header{
     background: darken($primary, 10%);
     box-shadow: .25rem 0 1rem transparentize($black-600, 0.90);
@@ -327,13 +347,13 @@ footer#footer{
   ul.nav{
     li{
       a{
-        color: $white;
+        color: $primary;
       }
     }
   }
   .btn-primary{
-    background: $white;
-    color: $primary;
+    background: $primary;
+    color: $white;
   }
 }
 /*
@@ -341,9 +361,9 @@ footer#footer{
 */
 /* 4.1 - Slide */
 section#slider{
-  background-blend-mode: overlay;
+  background-blend-mode:hard-light;
   background-color: $black-600;
-  background-image: url("../images/slide.jpg");
+  background-image: url("../images/imagem-fundo.jpg");
   background-size: cover;
   min-height: 85vh;
   padding: 5rem 0 0;

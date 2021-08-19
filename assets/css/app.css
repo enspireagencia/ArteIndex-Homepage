@@ -7883,13 +7883,18 @@ a {
       border-color: #FFC6F8;
       box-shadow: 0 3px 6px rgba(255, 198, 248, 0.61);
       color: #D12989; }
+  .btn.btn-primary.mt-5.mb-2 {
+    background-color: #fff !important;
+    border-color: #251E21;
+    color: #251E21 !important;
+    box-shadow: none; }
   .btn.btn-outline-primary {
     background: transparent;
-    color: #fff; }
-    .btn.btn-outline-primary:hover {
-      background: #D12989;
-      border-color: #FFC6F8;
-      box-shadow: 0 3px 6px rgba(255, 198, 248, 0.61); }
+    color: #fff;
+    border-color: #fff; }
+  .btn.btn-outline-primary.d-block.fw-bolder {
+    background: #D12989;
+    border-color: #FFC6F8; }
   .btn.btn-without-line-primary {
     background: transparent;
     color: #fff;
@@ -8153,12 +8158,11 @@ header#header.is-stick .navbar.fixed-top {
 
 /* 3.2 Footer */
 footer#footer {
-  background-image: url("../images/bg-footer.png");
-  background-position: top center;
-  padding-top: 8rem; }
+  background-color: #D12989;
+  padding-top: 2rem; }
   @media (min-width: 992px) {
     footer#footer {
-      padding-top: 10rem; } }
+      padding-top: 3rem; } }
   footer#footer .nav li a {
     color: #fff;
     font-weight: normal;
@@ -8178,8 +8182,8 @@ footer#footer {
 
 /* 3.3 OffCanvas*/
 #offcanvas {
-  background: #D12989;
-  color: #fff; }
+  background: #fff;
+  color: #251E21; }
   #offcanvas .offcanvas-header {
     background: #a6216d;
     box-shadow: 0.25rem 0 1rem rgba(37, 30, 33, 0.1); }
@@ -8192,19 +8196,19 @@ footer#footer {
       color: #fff;
       font-size: 1.5rem; }
   #offcanvas ul.nav li a {
-    color: #fff; }
-  #offcanvas .btn-primary {
-    background: #fff;
     color: #D12989; }
+  #offcanvas .btn-primary {
+    background: #D12989;
+    color: #fff; }
 
 /*
 * 4 - SEÇÕES
 */
 /* 4.1 - Slide */
 section#slider {
-  background-blend-mode: overlay;
+  background-blend-mode: hard-light;
   background-color: #251E21;
-  background-image: url("../images/slide.jpg");
+  background-image: url("../images/imagem-fundo.jpg");
   background-size: cover;
   min-height: 85vh;
   padding: 5rem 0 0; }
