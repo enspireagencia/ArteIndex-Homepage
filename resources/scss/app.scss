@@ -123,11 +123,11 @@ a{
     color: $white;
     border-color: $white;
     
-    // &:hover{
-    //   background: $primary;
-    //   border-color: $primary-200;
-    //   box-shadow: 0 3px 6px transparentize($primary-200, .39);
-    // }
+     &:hover{
+       background: $primary;
+       border-color: $primary-200;
+       box-shadow: 0 3px 6px transparentize($primary-200, .39);
+     }
 
   }
 
@@ -246,6 +246,7 @@ header#header{
       }
     }
   }
+
   //Fixed navbar in scroll
   &.is-stick{
     .navbar.fixed-top{

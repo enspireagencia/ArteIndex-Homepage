@@ -7892,6 +7892,10 @@ a {
     background: transparent;
     color: #fff;
     border-color: #fff; }
+    .btn.btn-outline-primary:hover {
+      background: #D12989;
+      border-color: #FFC6F8;
+      box-shadow: 0 3px 6px rgba(255, 198, 248, 0.61); }
   .btn.btn-outline-primary.d-block.fw-bolder {
     background: #D12989;
     border-color: #FFC6F8; }
