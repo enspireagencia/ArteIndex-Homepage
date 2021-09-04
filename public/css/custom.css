@@ -1,0 +1,18 @@
+.post-background{
+    background: #f0f8ff;
+}
+.width-100{
+    width: 100%;
+}
+.background_img{
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+.background_img_1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
